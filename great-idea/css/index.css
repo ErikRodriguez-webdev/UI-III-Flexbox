@@ -64,3 +64,54 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*Universal, Main Container, Nav*/
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+}
+
+.mainContainerBox {
+	border: 1px solid black;
+	margin: 1% 20% 5% 20%;
+	padding: 15px;
+}
+
+.topRow a {
+	color: gray;
+	text-decoration: none;
+	margin-top: 1%;
+}
+
+.topRow {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+/*Top of Body*/
+.innovationTitle h1 {
+	font-size: 75px;
+	margin-top: 20%;
+	text-align: center;
+}
+
+.innovationTitle p {
+	font-size: 25px;
+	border: 2px solid black;
+	text-align: center;
+	width: 75%;
+	margin-left: 10%;
+}
+
+.mainBody {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+}
+
+/*Middle of Body*/
+
+/*Lower of Body*/
+
+/*Footer*/
