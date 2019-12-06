@@ -237,6 +237,43 @@ h5 {
 }
 
 /*SERVICES STYLE SHEET STARTS HERE*/
-/**/
-/**/
-/**/
+/*same Nav as Homepage, logo, services*/
+.topPhoto {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.serviceHeader {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 3%;
+}
+
+/*BoxOfText grid*/
+.boxStyles {
+  border: 1px solid black;
+  background: lightgray;
+  width: 43%;
+  padding: 15px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.buttonFormat {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-top: 3%;
+  text-align: center;
+  width: 25%;
+}
+
+.boxesOfText {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 95%;
+}
+
+/*footer, service info image, copyright was same as homepage*/
